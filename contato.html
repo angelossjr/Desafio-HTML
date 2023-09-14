@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+</head>
+<body>
+    
+    <fieldset id="entreemcontato">
+        <legend>Entre em contato</legend>
+    <div class="form-group" id="selectfield" style="margin: 10px;">
+            <label for="Assuntos"><strong>Assunto:</strong></label>
+    
+            <select name="select" required >
+                <option value="vazio"></option>
+                <option value="valor1">Reclamaçao</option>
+                <option value="valor2">Sugestoes</option>
+                <option value="valor3">Orçamento</option>
+                <option value="valor4">Financeiro</option>
+                <option value="valor5">Expedição</option>
+            </select>
+    </div>
+    
+    <div class="form-group" id="namefield" style="margin: 10px;">
+        <label for="nome"><strong>Nome completo:</strong></label>
+        <br>
+        <input input name="nome" type="text" class="form-control" value="Seu Nome">
+    </div>
+    <div class="form-group" id="emailfield" style="margin: 10px;">
+        <label for="e-mail"><strong>E-mail:</strong></label>
+        <br>
+        <input input name="e-mail" type="text" class="form-control" value="email@seudominio.com">
+    </div>
+    <div class="form-group" id="mensagefield" style="margin: 10px;">
+        <label for="nome"><strong>Mensagem:</strong></label>
+        <br>
+        <textarea name="mensagem" id="msg1" cols="30" rows="10"></textarea>
+    </div>
+    <div class="form-group" id="checkboxfield" style="margin: 10px;">
+        <input type="checkbox" class="checkbox">
+        <label for="checkbox">Aceito receber novidades por e-mail</label>
+    </div>
+    <button type="submit">Enviar</button>
+    </fieldset>
+</body>
+</html>
